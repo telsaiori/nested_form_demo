@@ -16,7 +16,6 @@ class UsersController < ApplicationController
   def new
     @user = User.new
     @address = @user.addresses.build
-    # @address = Address.new
   end
 
   # GET /users/1/edit
